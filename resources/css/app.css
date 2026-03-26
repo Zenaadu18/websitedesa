@@ -15,3 +15,22 @@
     animation: flip-horizontal 4s linear infinite;
     transform-style: preserve-3d;
 }
+
+.dropdown {
+    @apply absolute left-0 mt-1 w-56 
+           bg-white/90 backdrop-blur-md
+           text-gray-800 
+           rounded-xl shadow-xl 
+           border border-gray-200 
+           z-50 overflow-hidden;
+}
+
+.dropdown a {
+    @apply block px-4 py-2 hover:bg-green-100 transition;
+}
+.dropdown-item {
+    @apply block px-4 py-2 rounded-lg 
+           hover:bg-green-100 
+           transition duration-200 
+           hover:translate-x-1;
+}

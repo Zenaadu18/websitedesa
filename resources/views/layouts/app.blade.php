@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@webawesome/ui/dist/webawesome.js"></script>
+    
     <title>Desa Camplong 2</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-gray-50 text-gray-800 overflow-x-hidden">
 
     <x-navbar />
 
